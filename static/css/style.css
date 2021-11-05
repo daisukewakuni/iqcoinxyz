@@ -1,0 +1,138 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+    font-size: 20px;
+     background-image:linear-gradient(to right,#301934,black);
+     
+}
+.nav_bar{
+    background-color: ;
+    display: flex;
+    padding: 10px 40px;
+    max-width:100%;
+    justify-content :space-between;
+    border-bottom: 1px solid rgb(138, 138, 138);
+}
+p{
+    margin:0;
+    padding:0;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+.list-items{
+    margin-right: 25px;
+    color:rgb(228, 228, 228);
+    font-size: 16px;
+}
+.btn-primiary{
+    color:rgb(157, 157, 157);
+    background-color: #373737;
+    border-width: 1px solid grey;
+    margin-right: 10px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-primiary:hover{
+background-color: #fc552c;
+cursor: pointer;
+}
+.main-body{
+    width: 100%;
+    height:auto;
+    display: flex;
+    padding: 70px 0;
+
+}
+.right-body{
+    width: 50%;
+    height:auto;
+
+}
+.left-body{
+    width: 50%;
+    height: auto;
+    padding-left: 45px;
+}
+.big-box{
+    padding:25px 10px;
+    width:90%;
+    border:0.5px solid rgb(151, 151, 151);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.small-box-container{
+    width: 93.5%;
+    padding:5px 0px;
+    height: auto;
+    background-color:brwn;
+    min-height: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.small-box{
+    padding:25px 10px;
+    width:25%;
+    border:0.5px solid rgb(151, 151, 151);
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+
+.text-small{
+    color:white;
+    font-size: 15px;
+    margin-bottom: 10px; 
+}
+.text-big{
+    color:'white';
+    font-size: 22px;
+    color: white;
+
+}
+.fill-color{
+    background-color: #202231    ;
+}
+.fill-color-primary{
+    background: radial-gradient(91.85% 100% at 1.84% 0,#1f578d 0,#83307b 100%);
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    padding:0 40px;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 4px;
+text-align: center;
+  }
+  
+  #customers tr:nth-child{    padding-left: 30px;
+    background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;padding-left: 30px;  }
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    text-align: left;
+    background-color: #5a4f4f;
+    color: white;
+  }
